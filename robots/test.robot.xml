@@ -1,0 +1,14 @@
+<Robot>
+	<KinBody>
+		<Body name = 'roomba'>
+			<Translation>2 -2 0.2</Translation>
+
+			<Geom type = 'cylinder'>
+				<rotationaxis>1 0 0 90</rotationaxis>
+				<radius>0.2</radius>
+				<height>0.2</height>
+				<diffuseColor>0.45 0.45 0.45</diffuseColor>
+			</Geom>
+		</Body>
+	</KinBody>
+</Robot>

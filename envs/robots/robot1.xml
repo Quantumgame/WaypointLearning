@@ -1,12 +1,12 @@
 <Robot>
-	<KinBody>
-		<Body name = 'roomba'>
+	<KinBody name='roomba'>
+		<Body name='body' type='dynamic'>
 			<Translation>2 -2 0.2</Translation>
 
-			<Geom type = 'cylinder'>
+			<Geom type='cylinder'>
 				<rotationaxis>1 0 0 90</rotationaxis>
-				<radius>0.2</radius>
-				<height>0.2</height>
+				<radius>0.05</radius>
+				<height>0.05</height>
 				<diffuseColor>0.45 0.45 0.45</diffuseColor>
 			</Geom>
 		</Body>
